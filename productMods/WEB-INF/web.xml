@@ -1399,7 +1399,45 @@
     <url-pattern>/smoketest</url-pattern>
   </servlet-mapping>
   
+  <!-- ==================== DCO: upload distribution file ============== -->
  
+  <servlet>
+    <servlet-name>AddDistributionDatasetController</servlet-name>
+    <servlet-class>edu.cornell.mannlib.vitro.webapp.controller.freemarker.AddDistributionDatasetController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddDistributionDatasetController</servlet-name>
+    <url-pattern>/addDistributionDataset</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DCOAddDatasetController</servlet-name>
+    <servlet-class>edu.cornell.mannlib.vitro.webapp.controller.freemarker.DCOAddDatasetController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DCOAddDatasetController</servlet-name>
+    <url-pattern>/DCOAddDatasetController</url-pattern>
+  </servlet-mapping>
+  
+   <!-- ==================== DCO: create publication using DOI ============== -->
+ 
+  <servlet>
+    <servlet-name>AddPublicationUsingDOIStepOneController</servlet-name>
+    <servlet-class>edu.cornell.mannlib.vitro.webapp.controller.freemarker.AddPublicationUsingDOIStepOneController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddPublicationUsingDOIStepOneController</servlet-name>
+    <url-pattern>/addPublicationUsingDOIStepOne</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AddPublicationUsingDOIStepTwoController</servlet-name>
+    <servlet-class>edu.cornell.mannlib.vitro.webapp.controller.freemarker.AddPublicationUsingDOIStepTwoController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddPublicationUsingDOIStepTwoController</servlet-name>
+    <url-pattern>/addPublicationUsingDOIStepTwo</url-pattern>
+  </servlet-mapping>
+  
   <!-- ==================== tag libraries ============================== -->
   <jsp-config>
     <taglib>

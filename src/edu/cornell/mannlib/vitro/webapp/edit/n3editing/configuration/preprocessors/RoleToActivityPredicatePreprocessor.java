@@ -43,7 +43,11 @@ public class RoleToActivityPredicatePreprocessor extends RoleToPredicatePreproce
 	public RoleToActivityPredicatePreprocessor(EditConfigurationVTwo editConfig, WebappDaoFactory wadf) {
         super(editConfig, wadf);
     }
+    public void preprocess(MultiValueEditSubmission submission){
+    }
 
+    public void preprocess(MultiValueEditSubmission submission,VitroRequest vreq){
+    }
     protected void setupVariableNames() {
     	this.itemType = "roleActivityType";
     	this.roleToItemPredicate = "roleToActivityPredicate";

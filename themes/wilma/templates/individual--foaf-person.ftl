@@ -86,6 +86,11 @@
                     </#if>                        
                 </h1>
             </#if>
+	    <#if dcoId??>
+                <h2 id="dcoId">
+                    DCO ID <a href="http://dx.deepcarbon.net/${dcoId!}" target="_blank" title="DCO-ID">${dcoId!}</a>
+                </h2>
+            </#if>
             <!-- Positions -->   
             <#include "individual-positions.ftl">
         </header>

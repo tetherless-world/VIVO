@@ -73,7 +73,15 @@
                 <#if ! (title.statements)?has_content>
                     <@p.mostSpecificTypesPerson individual editable/>
                 </#if>
-            </#if>        
+            </#if>
+            <h2 id="dcoid">
+            DCO ID 
+                <#if dcoid??>
+                   <a href="${dcoid!}" target="_blank" title="dco id">${dcoid!}</a>
+                <#else>
+                   <p>No DCO ID for this object.</p>
+                </#if>
+            </h2>
             <span id="iconControlsRightSide" class="<#if editable>iconControlsEditable<#else>iconControlsNotEditable</#if>" <#if !user.hasSiteAdminAccess>style="top:5px"</#if>>
                 <#include "individual-iconControls.ftl">
             </span>

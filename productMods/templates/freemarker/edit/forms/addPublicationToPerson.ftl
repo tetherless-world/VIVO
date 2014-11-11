@@ -307,6 +307,12 @@ Set this flag on the input acUriReceiver where you would like this behavior to o
 
        <p id="requiredLegend" class="requiredHint">* ${i18n().required_fields}</p>
     </form>
+    
+    <form id="addpublicationToPersonUsingDOI" class="customForm noIE67" action="${urls.base}/addPublicationUsingDOIStepOne" role="add publication">
+    	<input type="hidden" name="editKey" value="${editKey}"/>
+    	<input type="submit" id="submit" value="Or import metadata via DOI"/>
+    	<input type="text" class="acSelector acSelectorWithHelpText" name="doi" id="doi" label="DOI" size="30" value="Enter a DOI. E.g. 10.1109/TGRS.2013.2262179"/>
+    </form>
 
 
 <#assign sparqlQueryUrl = "${urls.base}/ajax/sparqlQuery" >

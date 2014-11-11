@@ -122,7 +122,7 @@ public class AddConceptThroughObjectPropertyGenerator extends DefaultObjectPrope
     		}
     		String[] typesArray = types.toArray(new String[types.size()]);
     		field.setOptions( new IndividualsViaSolrQueryOptions(
-    				vreq.getSession().getServletContext(),
+			vreq.getSession().getServletContext(),
     				getSubjectUri(),
     				predicateUri,
     				getObjectUri(),

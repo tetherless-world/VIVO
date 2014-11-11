@@ -24,11 +24,13 @@ public class AddResearcherRoleToPersonGenerator extends AddRoleToPersonTwoStageG
 	@Override
 	FieldOptions getRoleActivityFieldOptions(VitroRequest vreq) throws Exception {
 		return new ConstantFieldOptions(
-		        "", "Select one", 
+		        "", 
+			"Select one",
+			"http://info.deepcarbon.net/schema#FieldStudy", "Field Study", 
 		        "http://vivoweb.org/ontology/core#Grant", "Grant", 
-	        "http://purl.obolibrary.org/obo/ERO_0000015", "Human Study",		
-	        "http://vivoweb.org/ontology/core#Project", "Project",
-	        "http://purl.obolibrary.org/obo/ERO_0000014", "Research Project");		
+	        	"http://purl.obolibrary.org/obo/ERO_0000015", "Human Study",		
+	        	"http://vivoweb.org/ontology/core#Project", "Project",
+	        	"http://purl.obolibrary.org/obo/ERO_0000014", "Research Project");		
 	}
 
 	@Override  

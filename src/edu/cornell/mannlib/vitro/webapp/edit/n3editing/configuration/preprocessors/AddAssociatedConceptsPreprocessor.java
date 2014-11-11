@@ -87,6 +87,8 @@ public class AddAssociatedConceptsPreprocessor extends
 		this.conceptSemanticTypeURIVarToValueMap = new HashMap<String, List<String>>();
 	}
 
+	public void preprocess(MultiValueEditSubmission inputSubmission) {
+        }
 	public void preprocess(MultiValueEditSubmission inputSubmission, VitroRequest vreq) {
 		submission = inputSubmission;
 		this.wdf = vreq.getWebappDaoFactory();

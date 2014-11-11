@@ -365,7 +365,7 @@ local:hasResearcherRoleContext a :ConfigContext ;
 
 local:hasResearcherRoleConfig a :ObjectPropertyDisplayConfig ;
     :listViewConfigFile "listViewConfig-researchActivities.xml"^^xsd:string ;
-    :displayName "other research activities" ;
+    :displayName "projects, field studies, and other research activities" ;
     vitro:displayRankAnnot 35;
     vitro:hiddenFromDisplayBelowRoleLevelAnnot role:public ;
     vitro:prohibitedFromUpdateBelowRoleLevelAnnot role:public ;
@@ -966,7 +966,7 @@ local:hasOutputContext a :ConfigContext ;
 
 
 local:hasOutputConfig a :ObjectPropertyDisplayConfig ;
-    :displayName "output publications or other works" ;
+    :displayName "related publications or other works" ;
     vitro:displayRankAnnot 80 ;
     vitro:hiddenFromDisplayBelowRoleLevelAnnot role:public ;
     vitro:prohibitedFromUpdateBelowRoleLevelAnnot role:public ;
