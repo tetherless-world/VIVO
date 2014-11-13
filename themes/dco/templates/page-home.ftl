@@ -28,7 +28,7 @@
     <#-- supplies the faculty count to the js function that generates a random row number for the solr query -->
         <@lh.facultyMemberCount  vClassGroups! />
         <#include "identity.ftl">
-
+        <#include "search.ftl" >
         <#include "menu.ftl">
 
         <section id="intro" role="region">
