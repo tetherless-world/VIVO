@@ -631,7 +631,6 @@ body.loggedIn #intro {
     margin-bottom: 30px;
     overflow: hidden;
     margin-top: 20px;
-    display: none;
 }
 body.login #login {
     float: none;

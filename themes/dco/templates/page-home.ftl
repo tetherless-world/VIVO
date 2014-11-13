@@ -63,7 +63,7 @@
         
         </section> <!-- #intro -->
         
-        <@widget name="login" />
+        <!--@widget name="login" /-->
         
         <!-- List of research classes: e.g., articles, books, collections, conference papers -->
         <@lh.researchClasses />
