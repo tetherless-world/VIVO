@@ -24,7 +24,7 @@ public class VivoISFBasicFields extends ContextNodeFields {
      */
     private static String[] RELATIONSHIP_TYPES = {
         //VIVONS + "Relationship",
-        VIVONS + "Postion",
+        VIVONS + "Position",
         VIVONS + "Authorship",
         VIVONS + "Collaboration",
         VIVONS + "Affiliation"
